@@ -3,6 +3,8 @@
 #Content is licenced to Mediatek, but they aren't using a Android Source Code in law by it's license.
 #If there will be a problem with this, Please send me a message and I will remove this content.
 #If you can, let us make this excelent phone even better. Tnank you
+#Big Thank to FreakTab.com and unnamed guy fom Rusia.
+
 
 Prerequirest:
 *       OS                         : Linux distribution Ubuntu 10.04
@@ -56,3 +58,4 @@ prebuilts/misc/linux-x86/ccache/ccache -M 10G
 
 mediatek/build/tools/ptgen/MT6592/partition_table_MT6592.xls
  
+
