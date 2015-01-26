@@ -42,3 +42,4 @@ prebuilts/misc/linux-x86/ccache/ccache -M 10G
 
 5) Partitions size are set by:
 mediatek/build/tools/ptgen/MT6592/partition_table_MT6592.xls
+ 
