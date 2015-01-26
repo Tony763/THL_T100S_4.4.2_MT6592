@@ -21,7 +21,7 @@ Prerequirest:
 *       mingw                      : Installed
 *       unix2dos/tofrodos          : Installed
 *       tee                        : Installed
-Im running it in Oracle VirtualBox.
+*       I'm running it in Oracle VirtualBox.
 
 
 It is too big for github so I use a Mega.co.nz for storing files.
