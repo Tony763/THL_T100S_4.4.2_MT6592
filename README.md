@@ -50,7 +50,7 @@ prebuilts/misc/linux-x86/ccache/ccache -M 10G
 
 ./makeMtk -t clean
 
-./makeMtk -t bird92_cwet_a_kk n| tee -a build.log
+./mk -t -o=TARGET_BUILD_VARIANT=user bird92_cwet_a_kk n| tee -a build.log
 
 4) Need lots of coding and testing - dont flash if you dont know what are you doing
 
