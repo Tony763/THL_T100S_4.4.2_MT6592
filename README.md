@@ -25,21 +25,34 @@ Im running it in Oracle VirtualBox.
 It is too big for github so I use a Mega.co.nz for storing files.
 
 1) Download all from https://mega.co.nz/#F!FUJSQC7Z!c9vp0UpprSLjllLzdgiZmw
+
 2) Unpack to one directory
+
 3) Build
+
 cd alps
+
 ./makeMtk -help
+
 ./mbldenv.sh
+
 ccache -M 10G
+
 prebuilts/misc/linux-x86/ccache/ccache -M 10G
+
 ./makeMtk listp
+
 ./makeMtk -t check-env
+
 ./makeMtk -t check-modem
+
 ./makeMtk -t clean
+
 ./makeMtk -t bird92_cwet_a_kk n| tee -a build.log
 
 4) Need lots of coding and testing - dont flash if you dont know what are you doing
 
 5) Partitions size are set by:
+
 mediatek/build/tools/ptgen/MT6592/partition_table_MT6592.xls
  
